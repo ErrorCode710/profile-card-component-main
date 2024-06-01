@@ -96,6 +96,8 @@ body {
   background-color: var(--clr-neutral-100);
   border-radius: 1rem;
   overflow: hidden;
+  z-index: 99;
+  position: relative;
 }
 .card__profile-pic {
   display: flex;
@@ -169,4 +171,30 @@ hr {
   height: 0.1px;
   background-color: var(--clr-neutral-200);
   opacity: 0.5;
+}
+
+/* Background */
+
+.top-bg {
+  position: absolute;
+  background-image: url("images/bg-pattern-top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+  top: -450px;
+  left: -350px;
+}
+.bottom-bg {
+  position: absolute;
+  background-image: url("/images/bg-pattern-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+  top: 120px;
+  left: 120px;
+}
+.container {
+  position: relative;
 }
