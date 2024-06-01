@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <picture class="card__img">
+          <img src="/images/bg-pattern-card.svg" alt="buble pattern" />
+        </picture>
+        <picture class="card__profile-pic">
+          <img src="/images/image-victor.jpg" alt="" />
+        </picture>
+        <div class="card__content">
+          <div class="card_personal-info">
+            <div class="personal__details">
+              <h1 class="personal__name">Victor Crest</h1>
+              <p class="personal__age">26</p>
+            </div>
+            <p class="personal__loc">London</p>
+          </div>
+          <hr />
+          <ul class="card__socmed-info">
+            <li>
+              <span>80K</span>
+              <span class="">Followers</span>
+            </li>
+            <li>
+              <span>803K</span>
+              <span class="">Likes</span>
+            </li>
+            <li>
+              <span>1.4K</span>
+              <span class="">Photos</span>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
